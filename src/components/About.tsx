@@ -6,11 +6,18 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am currently co-founder of CallHQ.ai, building real-time voice AI for
-          businesses. I am a technologist at heart with strong business judgment—
-          I enjoy going from product strategy to hands-on engineering. My background
-          spans leadership at Adobe, founding Broki and CallHQ, and shipping
-          full-stack products end to end.
+          I am Harsh Singh, Aspiring Data Scientist with a focus on Machine Learning
+          and Generative AI. I recently graduated from Delhi Technological
+          University with a B.Tech in Electrical Engineering, and I work
+          across the full analytics lifecycle - data cleaning and EDA,
+          statistical modeling, machine learning, and deployment. My stack
+          centers on Python and SQL, with the scikit-learn, TensorFlow, and
+          PyTorch ecosystem, plus additional depth in NLP, LLMs, and
+          Generative AI - including RAG pipelines, embeddings, and LLM
+          fine-tuning. I enjoy owning a problem end to end: framing the
+          question, building and validating models, and turning the results
+          into clear, decision-ready insight for cross-functional
+          stakeholders.
         </p>
       </div>
     </div>
