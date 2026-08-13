@@ -4,10 +4,8 @@ import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
 import "./styles/Navbar.css";
-
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
 export let smoother: ScrollSmoother;
-
 const Navbar = () => {
   useEffect(() => {
     smoother = ScrollSmoother.create({
@@ -19,10 +17,8 @@ const Navbar = () => {
       autoResize: true,
       ignoreMobileResize: true,
     });
-
     smoother.scrollTop(0);
     smoother.paused(true);
-
     let links = document.querySelectorAll(".header ul a");
     links.forEach((elem) => {
       let element = elem as HTMLAnchorElement;
@@ -43,16 +39,16 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          AM
+          HS
         </a>
         <a
-          href="https://www.linkedin.com/in/akashrmalhotra/"
+          href="https://www.linkedin.com/in/harshdtu2k26/"
           className="navbar-connect"
           data-cursor="disable"
           target="_blank"
           rel="noreferrer"
         >
-          linkedin.com/in/akashrmalhotra
+          linkedin.com/in/harshdtu2k26
         </a>
         <ul>
           <li>
@@ -72,12 +68,10 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-
       <div className="landing-circle1"></div>
       <div className="landing-circle2"></div>
       <div className="nav-fade"></div>
     </>
   );
 };
-
 export default Navbar;
