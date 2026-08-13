@@ -8,7 +8,7 @@ const About = () => {
         <p className="para">
           I am Harsh Singh, Aspiring Data Scientist with a focus on Machine Learning
           and Generative AI. I recently graduated from Delhi Technological
-          University with a B.Tech in Electrical Engineering, and I work
+          University with a Bachelor's Degree in Engineering, and I work
           across the full analytics lifecycle - data cleaning and EDA,
           statistical modeling, machine learning, and deployment. My stack
           centers on Python and SQL, with the scikit-learn, TensorFlow, and
