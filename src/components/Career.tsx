@@ -18,7 +18,7 @@ const Career = () => {
                 <h4>Industrial Trainee</h4>
                 <h5>Data Analytics · NTPC, Dadri</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>june-2025 to august-2025</h3>
             </div>
             <p>
               Analyzed operational and performance data from regenerative feed
