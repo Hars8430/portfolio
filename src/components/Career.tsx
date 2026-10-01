@@ -12,6 +12,29 @@ const Career = () => {
           <div className="career-timeline">
             <div className="career-dot"></div>
           </div>
+
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Data Science Intern</h4>
+                <h5>Customer Analytics · ExpressEarth</h5>
+              </div>
+              <h3>march-2026 to august-2026</h3>
+            </div>
+            <p>
+              Extracted and cleaned a customer booking dataset (~8,000 records,
+              12 attributes spanning demographics, destination, trip type,
+              spend, and booking channel) and ran exploratory data analysis to
+              uncover booking behavior patterns across customer groups, trip
+              types, and destinations. Used those findings to shape the feature
+              set for an RFM (Recency, Frequency, Monetary) segmentation that
+              separates high-value travelers from low-engagement ones. Designed
+              interactive Power BI dashboards covering customer segments,
+              booking trends, and spend patterns, turning the analysis into a
+              reusable reporting view for the team. Tools: Python, SQL, Power BI.
+            </p>
+          </div>
+
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
@@ -31,6 +54,7 @@ const Career = () => {
               datasets used in the group's prediction model.
             </p>
           </div>
+
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
@@ -45,6 +69,7 @@ const Career = () => {
               teams.
             </p>
           </div>
+
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
@@ -59,6 +84,7 @@ const Career = () => {
               pressure.
             </p>
           </div>
+
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
